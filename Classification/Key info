@@ -1,1 +1,14 @@
 use print_rows(num_rows=m, num_columns=n) to print more rows and columns. 
+# Steps for classification:
+#1. Data preparation #Load data #View data
+#2. Extract sentiment #Define which sentiment to include #Set the positive or negative sentiment based on coeffieicient
+#3. Split data in to training and test sets
+#4. Train a sentiment classifier with logistic regression #Out put- #of features #of coefficients #of classes #positive coeefiicent/negative coefficients
+
+
+# TO improve model:
+To improve it, consider doing one of the following:
+(a) Increasing the regularization.
+(b) Standardizing the input data.
+(c) Removing highly correlated features.
+(d) Removing `inf` and `NaN` values in the training data.

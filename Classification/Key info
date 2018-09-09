@@ -12,3 +12,9 @@ To improve it, consider doing one of the following:
 (b) Standardizing the input data.
 (c) Removing highly correlated features.
 (d) Removing `inf` and `NaN` values in the training data.
+
+#Making predictions with logistic regression
+Now that a model is trained, we can make predictions on the test data. In this section, we will explore this in the context of 3 examples in the test dataset. We refer to this set of 3 examples as the sample_test_data.
+a. Find score
+b. Make class predictions
+
